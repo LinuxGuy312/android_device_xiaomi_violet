@@ -208,6 +208,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     FM2
 
+# Firmware
+$(call inherit-product, vendor/xiaomi-firmware/violet/firmware.mk)
+
 # Framework detect
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor \
