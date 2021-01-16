@@ -408,7 +408,9 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.qcom.usb.sh \
     init.recovery.qcom.rc \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    logcat.rc
+
 
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
