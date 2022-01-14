@@ -96,4 +96,7 @@
 
     <!-- Boolean indicating that only configurations that have the same pre-shared key will be linked -->
     <bool translatable="false" name="config_wifi_only_link_same_credential_configurations">false</bool>
+
+    <!-- Indicate the device support request channel on Wi-Fi Aware data-path. -->
+    <bool name="config_wifiSupportChannelOnDataPath" translatable="false">true</bool>
 </resources>
