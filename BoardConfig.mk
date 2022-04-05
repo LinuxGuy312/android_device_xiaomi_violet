@@ -137,7 +137,7 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
 
     $(DEVICE_PATH)/framework_compatibility_matrix.xml \
     
-    vendor/derp/config/device_framework_matrix.xml
+    vendor_framework_compatibility_matrix.xml \
     
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := hardware/qcom-caf/common/compatibility_matrix.xml
