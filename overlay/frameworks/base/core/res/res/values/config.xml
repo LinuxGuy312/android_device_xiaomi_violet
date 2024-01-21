@@ -264,7 +264,7 @@
     <!-- Screen brightness used to dim the screen when the user activity
          timeout expires.  May be less than the minimum allowed brightness setting
          that can be set by the user. -->
-    <integer name="config_screenBrightnessDim">1</integer>
+    <integer name="config_screenBrightnessDim">2</integer>
 
     <!-- Array of light sensor LUX values to define our levels for auto backlight brightness support.
          The N entries of this array define N  1 zones as follows:
@@ -332,7 +332,7 @@
 
     <!-- Minimum screen brightness setting allowed by power manager.
          The user is forbidden from setting the brightness below this level.  -->
-    <item name="config_screenBrightnessSettingMinimumFloat" format="float" type="dimen">0.0039215</item>
+    <item name="config_screenBrightnessSettingMinimumFloat" format="float" type="dimen">0.007843137</item>
 
     <!-- An array describing the screen's backlight values corresponding to the brightness
          values in the config_screenBrightnessNits array.
@@ -533,6 +533,26 @@
 
     <!-- Auto-brightness sensor type string -->
     <string name="config_displayLightSensorType">"android.sensor.light"</string>
+    
+    <!-- System Info -->
+    <bool name="config_supportSystemInfo">true</bool>
+    <string name="config_sysCPUTemp">"/sys/class/thermal/thermal_zone0/temp"</string>
+    <string name="config_sysBatteryTemp">"/sys/class/power_supply/battery/temp"</string>
+    <string name="config_sysGPUFreq">"/sys/kernel/gpu/gpu_clock"</string>
+    <string name="config_sysGPULoad">"/sys/kernel/gpu/gpu_busy"</string>
+    <integer name="config_sysCPUTempMultiplier">1000</integer>
+    <integer name="config_sysBatteryTempMultiplier">10</integer>
+
+     <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_supportSmartPixels">true</bool>
+
+     <!-- List supported color modes. -->
+    <integer-array name="config_availableColorModes">
+        <item>0</item> <!-- COLOR_MODE_NATURAL -->
+        <item>1</item> <!-- COLOR_MODE_BOOSTED -->
+        <item>2</item> <!-- COLOR_MODE_SATURATED -->
+        <item>3</item> <!-- COLOR_MODE_AUTOMATIC -->
+    </integer-array>
 
     <!-- Pocket Lock -->
     <bool name="config_pocketModeSupported">true</bool>
