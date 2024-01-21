@@ -520,6 +520,19 @@
 
     <!-- Determines whether the shell features all run on another thread. -->
     <bool name="config_enableShellMainThread">true</bool>
+   
+    <!-- List of comma separated package names for which we the system will not show crash like
+         tts, etc. dialogs. -->
+    <string translatable="false" name="config_appsNotReportingCrashes">com.google.android.tts</string>
+    
+    <!-- Flag indicating whether the surface flinger is inefficient
+         at performing a blur.  Used by parts of the UI to turn off
+         the blur effect where it isn't worth the performance hit.
+         As of Honeycomb, blurring is not supported anymore. -->
+    <bool name="config_sf_slowBlur">false</bool>
+
+    <!-- Auto-brightness sensor type string -->
+    <string name="config_displayLightSensorType">"android.sensor.light"</string>
 
     <!-- Pocket Lock -->
     <bool name="config_pocketModeSupported">true</bool>
