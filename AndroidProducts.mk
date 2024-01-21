@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_violet.mk
+    $(LOCAL_DIR)/derp_violet.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_violet-eng \
-    superior_violet-userdebug \
-    superior_violet-user
+    derp_violet-eng \
+    derp_violet-userdebug \
+    derp_violet-user
