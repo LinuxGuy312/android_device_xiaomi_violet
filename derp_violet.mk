@@ -12,7 +12,12 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 DERP_BUILDTYPE := Unofficial
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP  := true
-TARGET_USES_NANO_GAPPS  := true
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+TARGET_SUPPORTS_CALL_RECORDING := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+
+#GApps  
+WITH_GMS := true
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
