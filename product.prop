@@ -60,7 +60,7 @@ debug.cpurend.vsync=false
 # Graphics
 debug.hwui.renderer=skiagl
 debug.renderengine.backend=skiaglthreaded
-debug.sf.enable_gl_backpressure=1
+debug.sf.enable_gl_backpressure=0
 debug.sf.enable_transaction_tracing=false
 persist.demo.hdmirotationlock=false
 persist.hwc.enable_vds=1
