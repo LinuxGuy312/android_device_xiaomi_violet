@@ -9,12 +9,9 @@ $(call inherit-product, device/xiaomi/violet/device.mk)
 
 # Inherit some common DerpFest AOSP stuff.
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
-DERP_BUILDTYPE := Unofficial
+DERP_BUILDTYPE := Official
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP  := true
-TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
-TARGET_SUPPORTS_CALL_RECORDING := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 #GApps  
 WITH_GMS := true
