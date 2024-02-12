@@ -27,6 +27,9 @@ TARGET_INCLUDE_PIXEL_CHARGER := true
 # MiuiCamera
 $(call inherit-product-if-exists, vendor/MiuiCamera/config.mk)
 
+# Disable UDFPS animations ( unsupported )
+EXTRA_UDFPS_ICONS := false
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := derp_violet
 PRODUCT_DEVICE := violet
