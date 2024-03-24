@@ -13,6 +13,7 @@ GNSS_CFLAGS = [
     "-Wno-tautological-compare",
     "-Wno-switch",
     "-Wno-date-time",
+    "-Wno-deprecated-volatile",
 ]
 
 /* Activate the following for regression testing */
