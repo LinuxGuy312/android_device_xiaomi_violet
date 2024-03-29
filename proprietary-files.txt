@@ -451,7 +451,7 @@ vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
 
 # DPM (system) - from LA.QSSI.14.0.r1-11100-qssi.0
 system/framework/tcmclient.jar|bf99068d22c67fa08e9954497618d0b825c99e5f
-system_ext/bin/dpmd|5a42bc4e5c841573579e0718d6e80e688767eeed
+system_ext/bin/dpmd|94349101b52498554d12d3622e2b2dbd1263558d
 system_ext/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
 system_ext/etc/init/dpmd.rc|738b638ff04cda368e22c03e16baf90ba157a6fc
 system_ext/etc/permissions/com.qti.dpmframework.xml|c4b7ad0879d00c1eba4f3fe3a88ddb8aa153629a
@@ -459,7 +459,7 @@ system_ext/etc/permissions/dpmapi.xml|255903759a60a31c0876ec004e74554c753270fe
 system_ext/framework/com.qti.dpmframework.jar|0a56461d843103824831df03bca81c93124f5576
 system_ext/framework/dpmapi.jar|cc7cfebc4111b2a39a1ce288505f84b7c90d15b5
 system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so|3e9786c8263de4135926a91083b70a737fc1d28b
-system_ext/lib64/libdiag_system.so|77562f2b9a3bcbf7ce8106446c1cf2443c28accc
+system_ext/lib64/libdiag_system.so|a906457ce24cd76db5bc7b868f093a2623bf82d0
 system_ext/lib64/libdpmctmgr.so|206949728b98a513683468209dbce86ed29412b8
 system_ext/lib64/libdpmfdmgr.so|da636fca9a9a91a897d17fd519448b10053a696b
 system_ext/lib64/libdpmframework.so|d974f04f110b3c1a1282d78bb0ff8a29dc022439
@@ -960,7 +960,7 @@ system_ext/lib64/com.qualcomm.qti.uceservice@2.3.so|015c6b17bfaf9fac7efd206ecae8
 system_ext/lib64/lib-imsvideocodec.so|eb70a60fc143ab65718fa3333c845490120c9a23
 system_ext/lib64/lib-imsvt.so|dcf23823c74ae9844b6a5317f798b993c45b2e41
 system_ext/lib64/lib-imsvtextutils.so|19b0a5b9119388e735729e9a86ee7ee0a1355077
-system_ext/lib64/lib-imsvtutils.so|00c63c60bad9fdf339c873daf28303070210df37
+system_ext/lib64/lib-imsvtutils.so|8a8d4f3c6b57fc3a31f0982a9cd43b990514e1a7
 system_ext/lib64/libimscamera_jni.so|ca67ceb33d74db1f2d84d06a827c1c7d06bd3256
 system_ext/lib64/libimsmedia_jni.so|e9e9a28e266f8e19f2a01c0bfaaf19b39ac1fdfb
 system_ext/lib64/vendor.qti.ImsRtpService-V1-ndk.so|bb32703c026364da33ca1b4f83c839e1e312ae9b
@@ -975,7 +975,7 @@ system_ext/lib64/vendor.qti.ims.rcsconfig@2.0.so|b6c51c0816c6ea98a891ba8837aed61
 system_ext/lib64/vendor.qti.ims.rcsconfig@2.1.so|6f60384c1c3747744f13c40a1be2ead761d33e1c
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|919c4398097c8b818a415efccc57e989c7c24e10
 system_ext/lib64/vendor.qti.imsrtpservice@3.1.so|d1b6a6eabf17e43e98dcc4372fdabea4890f7cd8
-system_ext/priv-app/ims/ims.apk|446d0285830d87f96d9a9054873a7e17dc8ef7ff
+system_ext/priv-app/ims/ims.apk|eb896ad88f5c4d7ae26f6474e7fe4ccff8cc1efd
 
 # Radio (vendor) - IMS - from LA.UM.9.1.r1-12900-SMxxx0.0
 vendor/bin/ims_rtp_daemon|7cd0297294c08becd429698defc6c4a603a3e0e3
