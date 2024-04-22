@@ -38,7 +38,7 @@ public class ClearSpeakerFragment extends PreferenceFragment implements
 
     private static final String TAG = "ClearSpeakerFragment";
     private static final String PREF_CLEAR_SPEAKER = "clear_speaker_pref";
-    private static final int PLAY_DURATION_MS = 30000;
+    private static final int PLAY_DURATION_MS = 60000;
 
     private Handler mHandler = new Handler(Looper.getMainLooper());
     private MediaPlayer mMediaPlayer;
