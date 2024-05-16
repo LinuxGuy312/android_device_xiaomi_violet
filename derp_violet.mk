@@ -13,9 +13,13 @@ DERP_BUILDTYPE := Official
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_NOT_USES_BLUR := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_SUPPORTS_CALL_RECORDING := true
 
-#GApps  
+#GMS
 WITH_GMS := true
+$(call inherit-product, vendor/gms/products/gms.mk)
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
