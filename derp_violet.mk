@@ -21,6 +21,9 @@ TARGET_SUPPORTS_CALL_RECORDING := true
 WITH_GMS := true
 $(call inherit-product, vendor/gms/products/gms.mk)
 
+# Pixel Dependencies
+$(call inherit-product-if-exists, vendor/gms/extras/pixel_dependencies/config.mk)
+
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 USE_LEGACY_BOOTANIMATION := true
@@ -41,7 +44,16 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME="violet"
-
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME="violet" \
+    PRIVATE_BUILD_DESC="violet-user 10 QKQ1.190915.002 V12.5.1.0 release-keys" \
+    TARGET_DEVICE="violet" \
+    TARGET_PRODUCT="violet"
+    
+    BUILD_FINGERPRINT := xiaomi/violet/violet:10/QKQ1.190915.002/V12.5.1.0.QFHINXM:user/release-keys
+
+PRODUCT_PRODUCT_PROPERTIES += \
+   ro.build.fingerprint=$(BUILD_FINGERPRINT)
