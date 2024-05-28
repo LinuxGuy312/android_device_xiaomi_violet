@@ -5,7 +5,9 @@
 
 soong_namespace {
     imports: [
-        "hardware/xiaomi",
+        "bootable/deprecated-ota",
+        "hardware/google/interfaces",
+        "hardware/google/pixel"
     ],
 }
 
