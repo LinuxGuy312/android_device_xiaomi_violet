@@ -19,10 +19,6 @@ TARGET_SUPPORTS_CALL_RECORDING := true
 
 #GMS
 WITH_GMS := true
-$(call inherit-product, vendor/gms/products/gms.mk)
-
-# Pixel Dependencies
-$(call inherit-product-if-exists, vendor/gms/extras/pixel_dependencies/config.mk)
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
