@@ -238,6 +238,7 @@ renderthread.skia.reduceopstasksplitting=true
 persist.sys.binary_xml=false
 
 # USB
+ro.usb.uvc.enabled=true
 vendor.usb.use_ffs_mtp=0
 
 # VoLTE
