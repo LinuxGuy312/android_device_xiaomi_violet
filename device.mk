@@ -364,9 +364,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
 
-# Net
+# Network
 PRODUCT_PACKAGES += \
-    netutils-wrapper-1.0
+    android.system.net.netd@1.1.vendor \
+    libnetutils.vendor
 
 # Power
 PRODUCT_PACKAGES += \
@@ -421,7 +422,8 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
     libprotobuf-cpp-full-3.9.1-vendorcompat \
     librmnetctl \
-    libxml2
+    libxml2 \
+    libsqlite.vendor
 
 PRODUCT_COPY_FILES += \
     prebuilts/vndk/v29/arm/arch-arm-armv7-a-neon/shared/vndk-core/libprotobuf-cpp-full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-full.so \
