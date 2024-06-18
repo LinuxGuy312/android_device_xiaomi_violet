@@ -46,11 +46,9 @@
         <library name="audio_pre_processing" path="libqcomvoiceprocessing.so"/>
         <library name="volume_listener" path="libvolumelistener.so"/>
 	<library name="audiosphere" path="libasphere.so"/>
-    <library name="dirac" path="libdirac.so"/>
-    <library name="v4a_fx" path="libv4a_fx.so"/>
+        <library name="dirac" path="libdirac.so"/>
     </libraries>
     <effects>
-    <effect name="v4a_standard_fx" library="v4a_fx" uuid="41d3c987-e6cf-11e3-a88a-11aba5d5c51b"/>
         <effect name="gamedap" library="gamedap" uuid="3783c334-d3a0-4d13-874f-0032e5fb80e2"/>
         <effect name="vqe" library="vqe" uuid="64a0f614-7fa4-48b8-b081-d59dc954616f"/>
         <effect name="dap" library="dap" uuid="9d4921da-8225-4f29-aefa-39537a04bcaa"/>
