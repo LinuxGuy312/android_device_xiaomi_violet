@@ -551,8 +551,8 @@ vendor/firmware/goodixfp.b02
 vendor/firmware/goodixfp.b03
 vendor/firmware/goodixfp.b04
 
-# FM (system) - from LA.QSSI.13.0.r1-10000.02-qssi.0
-system_ext/lib64/fm_helium.so|5c9bf4a0ec6e9767b31571d127ac586c15eb3a8b
+# FM (system) - from LA.QSSI.14.0.r1-15100-qssi.0
+system_ext/lib64/fm_helium.so|63a119fb67a51136d738c0fa2b65c6713b3ab077
 system_ext/lib64/libfm-hci.so|bf5cd9f592596c762b1dab9f05379736989cfb11
 system_ext/lib64/vendor.qti.hardware.fm@1.0.so|0bfc9d9097698b7cc8cb74721cb971a80f862720
 
@@ -957,7 +957,7 @@ system_ext/lib64/com.qualcomm.qti.uceservice@2.0.so|bb9197ede96af06014599db62490
 system_ext/lib64/com.qualcomm.qti.uceservice@2.1.so|10c5af144c3693933c25f80f8f250d0a14e7974d
 system_ext/lib64/com.qualcomm.qti.uceservice@2.2.so|598a98298ded231e5fadf8fd01554d6b8d5d9af3
 system_ext/lib64/com.qualcomm.qti.uceservice@2.3.so|015c6b17bfaf9fac7efd206ecae8295f59e18ea9
-system_ext/lib64/lib-imsvideocodec.so|acf07b78d5fafa6d78aba07244f769ea848701e8
+system_ext/lib64/lib-imsvideocodec.so|fe3f4e54ef28d6739dae639faed9e56672bce707
 system_ext/lib64/lib-imsvt.so|dcf23823c74ae9844b6a5317f798b993c45b2e41
 system_ext/lib64/lib-imsvtextutils.so|19b0a5b9119388e735729e9a86ee7ee0a1355077
 system_ext/lib64/lib-imsvtutils.so|8a8d4f3c6b57fc3a31f0982a9cd43b990514e1a7
@@ -975,7 +975,7 @@ system_ext/lib64/vendor.qti.ims.rcsconfig@2.0.so|b6c51c0816c6ea98a891ba8837aed61
 system_ext/lib64/vendor.qti.ims.rcsconfig@2.1.so|6f60384c1c3747744f13c40a1be2ead761d33e1c
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|919c4398097c8b818a415efccc57e989c7c24e10
 system_ext/lib64/vendor.qti.imsrtpservice@3.1.so|d1b6a6eabf17e43e98dcc4372fdabea4890f7cd8
-system_ext/priv-app/ims/ims.apk|eb896ad88f5c4d7ae26f6474e7fe4ccff8cc1efd
+system_ext/priv-app/ims/ims.apk|1c9d058662948b698f175a8c81bb4727ff372126
 
 # Radio (vendor) - IMS - from LA.UM.9.1.r1-12900-SMxxx0.0
 vendor/bin/ims_rtp_daemon|7cd0297294c08becd429698defc6c4a603a3e0e3
