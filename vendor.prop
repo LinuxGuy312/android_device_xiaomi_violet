@@ -240,6 +240,7 @@ persist.sys.binary_xml=false
 # USB
 ro.usb.uvc.enabled=true
 vendor.usb.use_ffs_mtp=1
+vendor.usb.use_gadget_hal=1
 sys.usb.mtp.batchcancel=1
 
 # VoLTE
