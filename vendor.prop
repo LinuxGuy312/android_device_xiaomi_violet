@@ -271,3 +271,23 @@ ro.surface_flinger.use_content_detection_for_refresh_rate=true
 
 # Zygote
 zygote.critical_window.minute=10
+
+# Enable hardware acceleration
+ro.sf.compbypass.enable=1
+
+# Optimize rendering
+debug.hwui.use_buffer_age=false
+
+# Increase touch response
+debug.performance.tuning=1
+video.accelerate.hw=1
+windowsmgr.max_events_per_sec=240
+ro.min_pointer_dur=8
+
+# Reduce boot time
+ro.config.hw_quickpoweron=true
+ro.config.hw_quickpoweron_init=true
+
+# Improve graphics
+persist.sys.ui.hw=true
+persist.sys.purgeable_assets=1
