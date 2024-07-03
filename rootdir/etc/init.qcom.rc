@@ -220,6 +220,9 @@ on late-fs
     start vendor.configstore-hal
     start vendor.qti.hardware.display.allocator
 
+    # Set low memory killer minfree values
+    write /sys/module/lowmemorykiller/parameters/minfree "15360,20480,25600,30720,35840,40960"
+
 on early-boot
     # Wait for devices
     wait_for_prop vendor.all.devices.ready 1
@@ -712,3 +715,4 @@ on property:sys.boot_completed=1
     # Restrict permissions to socket file
     # to hide Magisk & co.
     chmod 440 /proc/net/unix
+

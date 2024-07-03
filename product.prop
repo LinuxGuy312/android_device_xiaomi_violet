@@ -78,8 +78,16 @@ ro.incremental.enable=1
 # IMS
 ro.telephony.block_binder_thread_on_incoming_calls=false
 
-# LMKD
+# LMK properties
 ro.config.low_ram=false
+ro.lmk.debug=false
+ro.lmk.critical_upgrade=true
+ro.lmk.upgrade_pressure=80
+ro.lmk.downgrade_pressure=60
+
+# Set the minimum and maximum LMK kill thresholds (values in MB)
+ro.lmk.kill_threshold_min=1536
+ro.lmk.kill_threshold_max=4096
 
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true
@@ -104,3 +112,5 @@ persist.vendor.delta_time.enable=true
 # Wireless display
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
+
+
