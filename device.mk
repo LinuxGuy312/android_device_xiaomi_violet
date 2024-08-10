@@ -478,10 +478,12 @@ PRODUCT_PACKAGES += \
     qti_telephony_utils.xml \
     qti-telephony-hidl-wrapper \
     qti-telephony-utils \
-    telephony-ext
+    telephony-ext \
+    xiaomi-telephony-stub
 
 PRODUCT_BOOT_JARS += \
-    telephony-ext
+    telephony-ext \
+    xiaomi-telephony-stub
 
 # Touchscreen
 PRODUCT_PACKAGES += \

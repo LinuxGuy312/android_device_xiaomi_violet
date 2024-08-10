@@ -1029,7 +1029,7 @@ system_ext/lib64/vendor.qti.ims.rcsconfig@2.0.so|b6c51c0816c6ea98a891ba8837aed61
 system_ext/lib64/vendor.qti.ims.rcsconfig@2.1.so|6f60384c1c3747744f13c40a1be2ead761d33e1c
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|919c4398097c8b818a415efccc57e989c7c24e10
 system_ext/lib64/vendor.qti.imsrtpservice@3.1.so|d1b6a6eabf17e43e98dcc4372fdabea4890f7cd8
-system_ext/priv-app/ims/ims.apk|a52f115f281d22025272791b7414775bb30feb4d
+system_ext/priv-app/ims/ims.apk
 
 # Radio (vendor) - IMS - from LA.UM.9.1.r1-12900-SMxxx0.0
 vendor/bin/ims_rtp_daemon|7cd0297294c08becd429698defc6c4a603a3e0e3
