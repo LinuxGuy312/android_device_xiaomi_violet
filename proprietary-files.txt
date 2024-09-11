@@ -674,7 +674,11 @@ vendor/firmware/a615_zap.elf|d94c7ca0b67a6e12baa6482f8ed7ceba0675c4b5
 vendor/firmware/a615_zap.mdt|b22ceb70390b2dbf1e545595f471eab7069a50dd
 vendor/firmware/a630_sqe.fw|6526cbb24d614dd67dc18e3c80d5c4374a0b3f63
 
-# Graphics (Adreno) - from Spacewar U2.5-231206-0153
+# Graphics (Adreno) - from 530.54
+vendor/gpu/kbc/sequence_manifest.bin|cc050a8058904871b3cfabec74521d42f0a61a1f
+vendor/gpu/kbc/unified_kbcs_32.bin|503228f87adc71131aa8134659b00dffe073e973
+vendor/gpu/kbc/unified_kbcs_64.bin|d63c26959dc02b2efc251953e99dc6e7c32e7f6e
+vendor/gpu/kbc/unified_ksqs.bin|8f77dc004796d58acb959e78f4994c5d6b90baef
 vendor/lib/egl/eglSubDriverAndroid.so|c4133b15d0a36f0775418724e09ce76681baa16d
 vendor/lib/egl/libEGL_adreno.so;SYMLINK=vendor/lib/libEGL_adreno.so|0b6e09ba4dd6aaf221444fcc9adc40d2e597364a
 vendor/lib/egl/libGLESv1_CM_adreno.so|5ab7196d4c8ae861ff484cb6b1f4b5ac3c9738b4
@@ -682,8 +686,6 @@ vendor/lib/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib/libGLESv2_adreno.so|fd2a8d
 vendor/lib/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib/libq3dtools_adreno.so|994551fb9b829caf80bb7a8f84b4b89cb3104ed9
 vendor/lib/egl/libq3dtools_esx.so|a0a899613e7b686ad2bd25d5473ff6b7349d0f7c
 vendor/lib/libC2D2.so|1c89e545a5dabc94d27db32031594a792d91d6fd
-vendor/lib/libCB.so|d92d057f27db12a90dd7886eccf3a5e8bf693c97
-vendor/lib/libOpenCL.so|7e06bf784e1c4e1b89dbe811b038efcc7c1221a0
 vendor/lib/libVkLayer_q3dtools.so|390f7ff73f79496ed12539b2bcee9851536118cd
 vendor/lib/libadreno_app_profiles.so|ef262204fe9c17f9526b9da2111367adef8b0441
 vendor/lib/libadreno_utils.so|1fac5517c83d8a9af80e2f128611eda2256cfdcf
@@ -691,8 +693,6 @@ vendor/lib/libc2d30_bltlib.so|a24885cfa5eb1658660eaa9b748bd289cbfa64a9
 vendor/lib/libgpudataproducer.so|885a29ab27d41c3fcfc7e5357d430f055b264f8d
 vendor/lib/libgsl.so|db54cb22bdc1285cac987f14cf64822ec03395c4
 vendor/lib/libllvm-glnext.so|dfa63834aa215b7bc38c396b1e1ab34ed82d095f
-vendor/lib/libllvm-qcom.so|2b06486f87dc21f834297837e85dd8fe49d5348e
-vendor/lib/libpvr.so|012ff9ce89160aa4812972244cf5ccbe67fe9bf2
 vendor/lib64/egl/eglSubDriverAndroid.so|2692fd8aac6a9fd49faace2213b2631f7595afad
 vendor/lib64/egl/libEGL_adreno.so;SYMLINK=vendor/lib64/libEGL_adreno.so|74766c6648c64e6af2944fe1a983f1e70f548cbe
 vendor/lib64/egl/libGLESv1_CM_adreno.so|b9e14710b9c2be024e1fdf77d60266423e484047
@@ -708,9 +708,10 @@ vendor/lib64/libadreno_utils.so|9c476d8fa6bfa8bc9f340cb1af6e5f33feddb77e
 vendor/lib64/libc2d30_bltlib.so|e7114d68fa058fb7c9b0ce33d4d12e20495e21f9
 vendor/lib64/libgpudataproducer.so|b82d8137bc48c2760320e496bda53aa54e656717
 vendor/lib64/libgsl.so|05215b55362463c34173b162e14e7e5ed02bbbbd
+vendor/lib64/libkcl.so|505c6488d7c2c34ac6bcc578e6e90098553e5f4f
+vendor/lib64/libkernelmanager.so|6e34cfed1b61ef27ac3740cf477e1ed836695513
 vendor/lib64/libllvm-glnext.so|a5a1cba925dc64948c4be55edccb59a79c3d29be
 vendor/lib64/libllvm-qcom.so|f6af31fb74163e3341918c861bece94b8feecc08
-vendor/lib64/libpvr.so|4ec5f223df1e2849dbe67687e293653406b6939e
 
 # Graphics (Vulkan) - from Spacewar U2.5-231206-0153
 vendor/lib/hw/vulkan.adreno.so|9a79dad3dcb133831aa0e98503ff220021c716b1
