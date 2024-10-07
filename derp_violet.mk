@@ -44,8 +44,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_PRODUCT="violet" \
-    PRIVATE_BUILD_DESC="violet-user 10 QKQ1.190915.002 V12.5.1.0 release-keys"
+    BuildDesc=$(call normalize-path-list, "violet-user 10 QKQ1.190915.002 V12.5.1.0 release-keys")
 
     BUILD_FINGERPRINT := xiaomi/violet/violet:10/QKQ1.190915.002/V12.5.1.0.QFHINXM:user/release-keys
 
