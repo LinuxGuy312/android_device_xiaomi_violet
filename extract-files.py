@@ -50,6 +50,8 @@ blob_fixups: blob_fixups_user_type = {
         blob_fixup().regex_replace(r'(start|stop) wfdservice\b', r'\1 wfdservice64'),
     'system_ext/lib64/libwfdnative.so':
         blob_fixup().remove_needed('android.hidl.base@1.0.so'),
+    'system_ext/lib64/libwfdservice.so':
+        blob_fixup().replace_needed('android.media.audio.common.types-V2-cpp.so', 'android.media.audio.common.types-V4-cpp.so'),
     'vendor/lib/libwvhidl.so':
         blob_fixup().replace_needed('libcrypto.so', 'libcrypto-v34.so'),
     'vendor/lib/mediadrm/libwvdrmengine.so':
