@@ -45,6 +45,8 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
+    'system_ext/lib64/libwfdnative.so':
+        blob_fixup().remove_needed('android.hidl.base@1.0.so'),
     'vendor/lib/libwvhidl.so':
         blob_fixup().replace_needed('libcrypto.so', 'libcrypto-v34.so'),
     'vendor/lib/mediadrm/libwvdrmengine.so':
