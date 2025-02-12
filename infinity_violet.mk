@@ -35,7 +35,7 @@ EXTRA_UDFPS_ICONS := false
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := infinity_violet
 PRODUCT_DEVICE := violet
-PRODUCT_BRAND := Xiaomi
+PRODUCT_BRAND := xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
