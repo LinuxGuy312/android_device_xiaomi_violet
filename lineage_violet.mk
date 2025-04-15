@@ -13,7 +13,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_SUPPORTS_OMX_SERVICE := false
 
 # Inherit MiuiCamera
-$(call inherit-product, vendor/MiuiCamera/config.mk)
+# $(call inherit-product, vendor/MiuiCamera/config.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_violet
