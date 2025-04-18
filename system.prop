@@ -1,0 +1,5 @@
+# InfinityX Prop
+ro.infinity.soc=Snapdragon 675
+ro.infinity.battery=4000 mAh
+ro.infinity.display=2340 x 1080, 60Hz
+ro.infinity.camera=48MP + 5MP
