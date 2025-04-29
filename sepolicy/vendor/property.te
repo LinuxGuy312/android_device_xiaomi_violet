@@ -1,6 +1,3 @@
-# Dirac
-vendor_internal_prop(dirac_prop)
-
 # Fastcharge
 vendor_internal_prop(vendor_fastcharge_prop)
 
