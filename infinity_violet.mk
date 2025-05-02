@@ -14,6 +14,9 @@ $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 # MiuiCamera
 $(call inherit-product-if-exists, vendor/MiuiCamera/config.mk)
 
+# Inherit ViPER4AndroidFX
+$(call inherit-product, vendor/ViPER4AndroidFX/config.mk)
+
 # Infinity-X Flags
 INFINITY_BUILD_TYPE := OFFICIAL
 INFINITY_MAINTAINER := Eren
