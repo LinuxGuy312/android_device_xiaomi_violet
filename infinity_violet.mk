@@ -24,7 +24,6 @@ TARGET_SUPPORTS_BLUR := false
 TARGET_HAS_UDFPS := false
 
 # GApps
-BUILD_WITH_GAPPS := true
 WITH_GAPPS := true
 
 # Bootanimation Resolution
